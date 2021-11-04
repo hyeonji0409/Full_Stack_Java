@@ -1,2 +1,20 @@
-package PACKAGE_NAME;public class Baekjoon1330 {
+import java.util.Scanner;
+
+public class Baekjoon1330 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        if(a>b){
+            System.out.println('>');
+        }
+        else if(a<b){
+            System.out.println('<');
+        }
+        else if(a==b){
+            System.out.println("==");
+        }
+    }
 }
