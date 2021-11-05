@@ -1,4 +1,4 @@
-package Multi_Cam;
+package Basic_Java;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -8,16 +8,19 @@ import java.util.Scanner;
  */
 public class Ex11 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         Random rand = new Random();
+        Scanner scan = new Scanner(System.in);
 
-        int coin = rand.nextInt(2);
-        System.out.println(coin);
-        if(coin == 1){
-            System.out.println("앞면입니다");
-        }
-        else {
-            System.out.println("뒷면입니다");
-        }
+        int ans = 0;
+        int coin = rand.nextInt(2); // 0 ~ 1, 1 ~ 100: radn.nextInt(100) + 1
+
+        System.out.print("동전의 앞면(0), 뒷면(1) 입력: ");
+        ans = scan.nextInt();
+
+        if ( coin == 0 ) { System.out.println("앞면"); }
+        else { System.out.println("뒷면"); }
+
+        if ( coin == ans) { System.out.println("정답!"); }
+        else { System.out.println("땡!!!"); }
     }
 }

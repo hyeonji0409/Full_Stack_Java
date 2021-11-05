@@ -1,4 +1,4 @@
-package Multi_Cam;
+package Basic_Java;
 
 import java.util.Scanner;
 

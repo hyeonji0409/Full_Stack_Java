@@ -1,4 +1,4 @@
-package Multi_Cam;
+package Basic_Java;
 /*
 메뉴판 입력받기
  */
