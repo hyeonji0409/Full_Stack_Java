@@ -1,9 +1,5 @@
-package Standard_Java;
+package Basic_Java;
 
-import com.sun.security.jgss.GSSUtil;
-
-import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
 
 
